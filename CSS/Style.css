@@ -1,0 +1,35 @@
+body {
+    background-color: teal;
+    text-align: center;
+}
+
+#linkedin {
+    color: blue;
+    position: absolute;
+    top: 95%;
+    left: 55%; 
+}
+
+#facebook {
+    color: blue;
+    position: absolute; 
+    top: 95%;
+    left: 45%;
+}
+
+#instagram {
+    color: pink;
+    position: absolute; 
+    top: 95%;
+    left: 50%;
+}
+
+img {
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    color : white;
+}
