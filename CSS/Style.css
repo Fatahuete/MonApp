@@ -1,35 +1,92 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: teal;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/bureau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-#linkedin {
-    color: blue;
-    position: absolute;
-    top: 95%;
-    left: 55%; 
-}
 
-#facebook {
-    color: blue;
-    position: absolute; 
-    top: 95%;
-    left: 45%;
-}
-
-#instagram {
-    color: pink;
-    position: absolute; 
-    top: 95%;
-    left: 50%;
-}
-
-img {
-    border-radius: 60%;
-    width: 150px;
-    height: 150px;
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    ;
 }
 
 h1 {
-    color : white;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.logo {
+    border-radius: 60%;
+    width: 20%;
+    height: 20%;
+}
+
+.contenu {
+    flex: 1 0 auto;
+}
+
+.intro {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.presentation {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.lien {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bloc {
+    width: 10%;
+    margin: 0 1%;
+}
+
+.linkedin {
+    padding: 1% 0;
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.instagram {
+    padding: 1% 0;
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.facebook {
+    padding: 1% 0;
+    width: 40px;
+    margin: 10px 10px;
+}
+
+#insta {
+    color: red;
+}
+
+#fb {
+    color: blue;
+}
+
+#in {
+    color: blue;
 }
