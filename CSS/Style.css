@@ -9,17 +9,15 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(/images/bureau.png);
+    background-image: url(../images/bureau.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 
 footer {
     flex-shrink: 0;
     width: 100%;
-    ;
 }
 
 h1 {
