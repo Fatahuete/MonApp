@@ -1,43 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <link rel ="stylesheet" href ="./CSS/Style.css">
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./images/logoEva.png" />
-    <title>Page étudiante</title>
+  <link rel="stylesheet" href="./CSS/Style.css">
+  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CV_Eva-Billaud</title>
 </head>
+
 <body>
-    <header class="intro">
-        <h1>Eva BILLAUD</h1>
-        <figure> 
-            <img class="logo" src="./images/logoEva.png" alt="logo Eva">
-        </figure>
-    </header>
-    <section class="contenu">
-        <article>
-            <p class="presentation">Je me permet de me présenter : je suis Eva et cette année j'ai atteint la majorité internationale ! <br>
-                Née à Toulouse, j'ai pourtant vécu 20 années en Touraine, dans une petite ville de la région Centre. <br>
-                Après quelques années d'études classiques de la maternelle au lycée générale, j'ai poursuivi en alternance pour 2 années en IUT Techniques de Commercialisation. <br> 
-                Après ce long parcours, me voici enfin de retour dans ma ville natale, j'ai choisi de continuer mes études en alternance, mais cette fois-ci dans le digital. <br>
-                J'ai aujourd'hui intégré l'école Web Internationnal School pour me permettre d'appronfondir mes compétences. <br>
-            </p>
-        </article>
+  <header>
+    <div class="headerContact">
+
+      <!--Logo-->
+      <img class="logo" src="/images/logoEva.png">
+      <a class="buttomContact" href="/contact.html">Me Contacter</a>
+
+    </div>
+
+    <!-- Section Home -->
+    <section class="SectionAccueil">
+
+      <div class="imgProfil">
+        <img class="first" src="/images/profil.png">
+        <div class="carreImage"></div>
+      </div>
+
+      <!--img profil-->
+      <div class="Accueil">
+        <!--Text depart-->
+        <p class="bonjour">Bonjour, je suis</p>
+        <Br>
+        <h1 id="first">Eva BILLAUD</h1>
+        <a class="buttomProjets" id="second" href="#projet">Mes Projets</a>
+
+
+        <!--Text Rotate-->
+
+        <p class="alternance">Alternance
+          <span class="txt-rotate" data-period="2000"
+            data-rotate='[ "chef de projet digital.", "e-commerce.", "digitale.", "communication.", "marketing." ]'>
+          </span>
+        </p>
+        <Br>
+
+        <!--Buttom-->
+        <div class="buttom">
+          <a class="bouton" href="#experience">Mes Expériences</a>
+          <a class="bouton" href="#parcours">Mon Parcours</a>
+          <a class="bouton">Mes Compétences</a>
+        </div>
+
+      </div>
     </section>
 
-    <footer>
-        <div class="lien">
-            <div class="bloc linkedin">
-                <a id="in" href = "https://www.linkedin.com/in/eva-billaud-%F0%9F%9A%80-955616164/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-            <div class="bloc instagram">
-                <a id="insta" href = "https://www.instagram.com/eva_billaudpro/" target="_blank"><i class="fa fa-instagram"></i></a>
-            </div>
-            <div class="bloc facebook">
-                <a id="fb" href = "https://www.facebook.com/profile.php?id=100009009533115" target="_blank"><i class="fa fa-facebook"></i></a>
-            </div>
+    <!--Text profil-->
+    <div class="profil">
+      <p class="text">
+        Passionnée par les nouvelles technologies et voulant mettre à profit ma créativité, je souhaite poursuivre mes
+        études en alternance dans le domaine du digital.|
+      </p>
+    </div>
+  </header>
+
+
+  <!--TIMELINE-->
+  <section>
+    <div class="timeline" id="experience">
+
+      <!--TITLE-->
+      <br>
+      <H1>MES EXPÉRIENCES</H1>
+      <br>
+
+      <!--1 CAP Manager-->
+      <div class="container left">
+        <div class="date"><b>Apprentie - Community Manager et assistante administrative </b> <br>
+          • Création plan de communication <br>
+          • Animation des réseaux sociaux <br>
+          • Montage vidéo<br>
+          • Préparation de formation pour les entrepreneurs<br>
+          • Participation à la mise en place de la certification qualiopi <br>
+          • Gestion des contrats et factures clients <br>
         </div>
-    </footer>
+
+        <div class="content">
+          <img class="icone" src="./images/localisation.svg">
+          <h2>Balma, Toulouse</h2>
+          <a class="buttonEnt" href="https://www.cap-manager.com/" target="_blank"><img class="logoEnt"  src="/images/logoCAP.png"></a>
+          <p>
+            Sep-2020 à Sep-2021
+          </p>
+        </div>
+      </div>
+
+      <!--2 powervamp-->
+      <div class="container right">
+        <div class="date"><b>Stagiaire - Assistance communication</b><br>
+          • Création de supports de communication (vidéos & Flyers)<br></div>
+        <div class="content">
+          <div class="TitreetIcone">
+            <img class="icone" src="./images/localisation.svg">
+            <h2>Weston-Super-Mare, UK</h2>
+          </div>
+          <a class="buttonEnt" href="https://www.powervamp.com/" target="_blank"><img class="logoEnt" src="/images/logoPower.png"></a>
+          <p>
+            Mars-2020
+          </p>
+        </div>
+      </div>
+
+      <!--3 TLD-->
+      <div class="container left">
+        <div class="date"><b>Apprentie - Assistante administration des ventes</b><br>
+          • Création d’un cahier des charges pour un module Symfony.<br>
+          • Création de procédures, démarche qualité. <br>
+          • Suivi de dossiers clients commande – Facturation <br>
+          • Préparation de transports de marchandises.<br>
+        </div>
+
+        <div class="content">
+          <div class="TitreetIcone">
+            <img class="icone" src="./images/localisation.svg">
+            <h2> Sorigny, Tours</h2>
+          </div>
+          <a class="buttonEnt" href="https://www.tld-group.com/fr/" target="_blank"><img class="logoTLD" src="/images/logoTLD.png"></a>
+          <p>
+            Septembre 2018 - 2020
+          </p>
+        </div>
+      </div>
+
+      <!--4 CROUS-->
+      <div class="container right">
+        <div class="date">Accueil des stagiaires tous les dimanches de 16h à 20h</div>
+        <div class="content">
+          <img class="icone" src="./images/localisation.svg">
+          <h2>Croix Montoire, Tours</h2>
+          <a class="buttonEnt" href="https://www.crous-orleans-tours.fr/" target="_blank"><img class="logoCrous" src="/images/logoCrous.png"></a>
+          <p>
+            Sept-2018 à Dec-2018
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--BOOK-->
+  <section>
+  <!--Title-->
+    <div class="book-section" id="parcours">
+      <H1>MON PARCOURS</H1>
+      <br>
+      <div class="bookcontainer">
+
+<!-- Back cover -->
+        <div class="right">
+          <figure class="back" id="back-cover">
+            <h2>MERCI</h2>
+          </figure>
+          <figure class="front"></figure>
+        </div>
+
+<!-- Last page -->
+        <div class="right">
+          <figure class="back">
+            <!-- Fourth page-->
+            <h3>Baccalauréat Economiques et Sociales</h3>
+            <img class="logoLycee" src=http://santeplaniol.fr/wp-content/uploads/2019/06/planiologol-1-e1561626143845.jpg>
+            <p> •	Option mathématique</br>
+               • Déléguée de classe</br>
+            </p>
+          </figure>
+          <figure class="front">
+            <!-- Third page -->
+            <h3>DUT Techniques de Commercialisation</h3>
+            <img class="logoIUT" src="https://iut.univ-tours.fr/jsp/images/logo_interieur.svg">
+            <p> •	Présidente de l'association des projets DUT TC apprentissage </br>
+              •	Déléguée de classe </br>
+              •	Marketing digital </br>
+              •	Communication digital </br>
+              •	Informatique </br>
+            </p>
+          </figure>
+        </div>
+        
+<!-- First part  -->
+        <div class="right">
+          <figure class="back">
+            <!-- Second page -->
+            <h3>Double diplome Bachelor 3 Chef de projet digital</h3>
+            <img src="https://storage.googleapis.com/prod-phoenix-bucket/osp/cards/451/logo-wis-200727055732.jpg">
+            <p>
+              • Gestion de projet</br>
+              • Développement informatique (préparation au titre BAC+2 :
+              "Développeur(se) Web et Web Mobile")</br>
+              • Communication et marketing digital</br>
+              • E-commerce </br>
+              • Déléguée de classe et ambassadrice WIS</br>
+            </p>
+          </figure>
+          <figure class="front">
+            <!-- First page -->
+            <h3>Master Expertise Digitale</h3>
+            <img src="https://storage.googleapis.com/prod-phoenix-bucket/osp/cards/451/logo-wis-200727055732.jpg">
+            <p>
+              • Concevoir, développer, exploiter et gérer un projet digital
+              complexe.</br>
+              • Définir la bonne stratégie pour accompagner vos clients
+              ou votre entreprise dans leur transformation numérique.</br>
+          </p>
+          </figure>
+        </div>
+
+<!-- Cover book-->
+        <div class="right">
+          <figure class="back"></figure>
+          <figure class="front" id="cover">
+            <h2>Mon parcours scolaire</h2>
+            <img src="./images/livre.svg">
+            <p>Tourner les pages, pour découvrir mon parcours d'étudiante entre Tours et Toulouse</p>
+          </figure>
+        </div>
+
+      </div>
+      <button onclick="turnLeft()"><b>
+          <</b> </button> <button onclick="turnRight()"><b>></b></button>
+  </section>
+  </div>
+
+  <!--PROJET-->
+  <section>
+    <!--Title-->
+      <div class="projet-section" id="projet">
+        <br>
+        <h1> MES PROJETS</h1>
+        <br>
+
+    <!--Card 1 Title and image-->
+        <div class="projet-container">
+          <div class="card">
+              <div class="face face1">
+                  <div class="projet-content">
+                      <img src="/images/logoTalent.png">
+                      <h3>Talent Tours</h3>
+                  </div>
+              </div>
+
+    <!--Card 2 Text and botton-->
+              <div class="face face2">
+                  <div class="projet-content">
+                      <p>Création visuel, flyers, affiche, ticket de tombola, carte de visite, plaquette partenaire </br>
+                        <a class="buttonWIX" href="https://projetincroyabtalent.wixsite.com/monsite" target="_blank">Site</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+  </div>
+  </section>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="./Js/fonction.js"></script>
+  <script src="./Js/book.js"></script>
 </body>
 </html>

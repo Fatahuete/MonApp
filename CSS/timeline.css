@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 200vh;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #171717;
+    color: white;
+}
+
+h1 {
+    font-family: 'righteous';
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.timeline {
+    top: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timeline_container {
+    width: 70%;
+}
+
+.timeline_container::before {
+    content: "";
+    background-color: #A80000;
+    position: absolute;
+    width: 3px;
+    height: 700px;
+    margin-top: 6%;
+    left: 49%;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.first-block::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #A80000;
+    position: absolute;
+    left: 48%;
+    margin-top: 8%;
+}
+
+.second-block::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #A80000;
+    position: absolute;
+    left: 48%;
+    margin-top: 8%;
+}
+
+.three-block::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #A80000;
+    position: absolute;
+    left: 48%;
+    margin-top: 8%;
+}
+
+.fourth-block::before {
+    content: "";
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #A80000;
+    position: absolute;
+    left: 48%;
+    margin-top: 8%;
+}
+
+.date {
+    padding: 20px 20px;
+    width: 400px;
+    margin-left: 5%;
+}
+
+.info-container{
+    font-family: 'righteous';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 20px 50px;
+}
+
+h3{
+    font-family: 'Play';
+    font-size: 14px;
+}
+
+li{
+    font-family: 'Play'; 
+    font-size: 14px;
+}
+
+.localization {
+    display: flex;
+    margin: 0px 25px 20px;
+    flex-direction: row;
+}
+
+.icone {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.logoEnt {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.logoCro {
+    width: 100px;
+    margin-bottom: 20px;
+}
